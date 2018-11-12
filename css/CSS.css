@@ -1,0 +1,154 @@
+body
+{
+background-image: linear-gradient(#fefefe,#f6f7fa,#ECEEF5,#dee2ed,#d6dbe9);
+position:relative;	
+}
+#me
+{
+	border:3px solid green;
+	margin: auto;
+	width:900px;
+	height:1312px;
+	padding:0;
+	background-color:white;
+	position:relative;
+	border-radius: 8px;
+}
+#anhbia
+{
+	position:relative;
+	border:1px solid grey;
+	height:260px;
+	padding:0;
+	margin:0;
+
+	
+}
+#avata
+{
+	padding:0;
+	height:230px;
+	position:relative;
+	top:-105px;
+	left:8px;
+	border:5px solid white;
+}
+#chao
+{
+	position:relative;
+	width:1050px;
+	text-align:center;
+	font-family:constantia;
+	font-size:35px;
+	color: C907F0;
+	top:-235px;
+	
+	
+
+}
+#menu ul li
+{
+	top:200px;
+	padding:15px 28px;
+	list-style:none;
+	float:left;
+	background-color:AA9E4D;
+	border-left:2px solid white;
+	color:black;
+	transition:all ls;
+	-moz-transition:all ls;
+	-webkit-transition:all ls;
+
+}
+#menu ul li a{
+	text-decoration:  none;
+}
+li
+{font-size:18px;}
+#menu ul li:hover
+{
+	background-color:5452CB;
+}
+#menu ul
+{
+	margin-left:120px;
+
+}
+#menu
+{
+	width:1000px;
+	top:-250px;
+	position:relative;
+
+}
+#anhthanbai
+{
+	top:-240px;
+	margin-left:1px;
+	width:898px;
+	height:890px;
+	position:relative;
+	
+}
+#thanbai
+{
+	padding:0;
+}
+#anhthanbai2
+{
+	position:absolute;
+	top:490px;
+	height:200px;
+	margin-left:230px;
+	width:500px;
+}
+#chu
+{
+       position:relative;
+	bottom:1980px;
+	height:130px;
+	margin-left:340px;
+	
+}
+#anhthanbai3
+{
+	position:relative;
+	bottom:850px;
+	margin:auto;
+
+}
+
+#anhthanbai5
+{
+	position:relative;
+	bottom:1300px;
+	height:500px;
+	width:600px;
+	margin-left:250px;
+	
+}
+#pikachu
+{
+	position:relative;
+	bottom:1320px;
+	height:100px;
+	width:100px;
+	margin-left:750px;
+}
+
+table
+{
+	position:relative;
+	bottom:1429px;
+	
+}
+th
+{
+	font-size:40px;
+	color:33CC33;
+}
+ul
+{
+	position:relative:
+	text-bottom:1500ppx;
+}

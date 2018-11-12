@@ -1,0 +1,186 @@
+<html>
+	<head>
+		<title>
+		Giới thiệu
+		</title>
+		<style>
+#me
+{
+	border: 2px solid grey;
+	margin: auto;
+	width:900px;
+	height:1312px;
+	padding:0;
+	background-color:white;
+	position:relative;
+	
+	
+}
+#anhbia
+{
+	
+	border:1px solid grey;
+	height:260px;
+	padding:0;
+	margin:0;
+
+	
+}
+#avata
+{
+	padding:0;
+	height:230px;
+	position:relative;
+	top:-105px;
+	left:8px;
+	border:5px solid white;
+}
+#chao
+{
+	position:relative;
+	width:1050px;
+	text-align:center;
+	font-family:constantia;
+	font-size:35px;
+	color: C907F0;
+	top:-235px;
+	
+
+}
+#menu ul li
+{
+	top:200px;
+	padding:15px 28px;
+	list-style:none;
+	float:left;
+	background-color:AA9E4D;
+	border-left:2px solid white;
+	color:black;
+	transition:all ls;
+	-moz-transition:all ls;
+	-webkit-transition:all ls;
+}
+li
+{font-size:18px;}
+#menu ul li:hover
+{
+	background-color:5452CB;
+}
+#menu ul
+{
+	margin-left:120px;
+
+}
+#menu
+{
+	width:1000px;
+	top:-250px;
+	position:relative;
+	border:5px solid DDDDDD;
+}
+#nen
+{
+position:absolute;
+height:800px;
+width:890px;
+top:95px;
+padding:0;
+margin:-37;
+
+
+}
+#bang1
+{
+	position:relative;
+	top:60px;
+	margin-left:-50px;
+	
+}
+
+
+
+#noidung
+{
+	position:relative;
+	bottom:575px;
+	margin-left:240px;
+	width:470px;
+}
+}
+#noisong
+{ float:bottom; border:1px solid black;}
+#b2{font-size:35px; margin-left:10px;}
+body
+{
+background-color:66FFCC;
+position:relative;
+}
+</style>
+</head>
+<body>
+<script>
+		function doimau(giatri,duongdan)
+		{
+			if (giatri==1)
+			{
+			document.getElementById('noidung2').src=duongdan;
+			document.getElementById('tongquan').style.background="green";
+			document.getElementById('hocvan').style.background="grey";
+			document.getElementById('noisong').style.background="grey";
+			}
+		else if (giatri==2)
+			{
+			document.getElementById('noidung2').src=duongdan;
+			document.getElementById('tongquan').style.background="grey";
+			document.getElementById('hocvan').style.background="green";
+			document.getElementById('noisong').style.background="grey";
+			}
+		else if (giatri==3)
+			{
+			document.getElementById('noidung2').src=duongdan;
+			document.getElementById('tongquan').style.background="grey";
+			document.getElementById('hocvan').style.background="grey";
+			document.getElementById('noisong').style.background="green";
+			}
+		}
+</script>
+
+	<dir id="me">
+		<dir id="anhbia" > <center><img id="truong" width="897px" height="298px" src="image/truong.jpg" /> </center> </dir>
+					<br> 
+				
+					<img id="avata" src="image/bechap.jpg" width="180px">
+		<h1 id="chao" > <marquee  hspace="250px" height="40px" behavior="alternate" > WelCome To Đức Cường!  
+		</marquee> </h1>
+		
+		<dir id="menu" >
+			<ul>
+				<li><a href="index.html">Trang Chủ</a></li>
+				<li><a href="gioithieu.html">Giới thiệu chung</a></li>
+				<li><a href="tinhcach.html">Vân mệnh </a></li>
+				<li > <a href="lh.html">liên hệ </a></li> 
+		
+			</ul>
+		<dir id="nen">	<!---------------------het menu----------------------->
+		<img height="895px" width="897px" align="left" src="image/vang.jpg">
+		</dir>
+			<dir id="nen2">
+				<table id="bang1"  height="600" width="840px" border="5px" bgcolor="#F8F8FF">	
+					<tr  >
+						<td height="100px" ><b id="b2">Giới thiệu</b></td>
+						<td rowspan="6" width="500px" > 
+							<tr><td height="50px" id="tongquan" onclick="doimau(1,'tongquan.html')" id="tongquan" bgcolor="green">  Tổng quan		</td></tr>
+							<tr><td height="50px" onclick="doimau(2,'hocvan.html')" id="hocvan" bgcolor="grey">	 Sở thích			</td></tr>
+							<tr><td height="50px" onclick="doimau(3,'sothich.html')" id="noisong" bgcolor="grey">	 Học vấn		</td></tr>
+							<tr><td height="330px"><img src="image/anhlop.jpg" height="350px" width="320px"></td></tr>
+						</td>
+					</tr> 
+		
+			
+				</table>
+			<dir id="noidung">
+					<iframe id="noidung2" src="tongquan.html" frameborder="10" scrolling="no" width="500px" height="610px"/>
+			</dir>
+	</dir>
+</body>
+</html>
